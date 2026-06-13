@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #000;
+}
+
+.container{
+    position: relative;
+    width: 350px;
+    height: 475px;
+}
+
+.container:hover .flip{
+    transform: rotateY(180deg);
+}
+
+.flip{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.frente,.tras{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #fff;
+    backface-visibility: hidden;
+}
+
+.frente{
+    background-image: url(img/1.jpg);
+    background-size: cover;
+}
+
+.tras{
+    background-image: url(img/stitch.jpg);
+    background-size: cover;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+    color: bisque;
+}
+
+.frente1,.tras1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #fff;
+    backface-visibility: hidden;
+}
+
+.frente1{
+    background-image: url(img/2.jpg);
+    background-size: cover;
+}
+
+.tras1{
+    background-image: url(img/amoeba.jpg);
+    background-size: cover;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.frente2,.tras2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #fff;
+    backface-visibility: hidden;
+}
+
+.frente2{
+    background-image: url(img/3.jpg);
+    background-size: cover;
+}
+
+.tras2{
+    background-image: url(img/milk.jpg);
+    background-size: cover;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.frente3,.tras3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #fff;
+    backface-visibility: hidden;
+}
+
+.frente3{
+    background-image: url(img/4.jpg);
+    background-size: cover;
+}
+
+.tras3{
+    background-image: url(img/pelucia.jpg);
+    background-size: cover;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.frente4,.tras4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #fff;
+    backface-visibility: hidden;
+}
+
+.frente4{
+    background-image: url(img/5.jpg);
+    background-size: cover;
+}
+
+.tras4{
+    background-image: url(img/flores.jpg);
+    background-size: cover;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.frente5,.tras5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #fff;
+    backface-visibility: hidden;
+}
+
+.frente5{
+    background-image: url(img/6.jpg);
+    background-size: cover;
+}
+
+.tras5{
+    background-image: url(img/namorados.jpg);
+    background-size: cover;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+    color: #000;
+}
